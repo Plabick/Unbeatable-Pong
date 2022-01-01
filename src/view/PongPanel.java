@@ -11,7 +11,6 @@ public class PongPanel extends JPanel {
 
   PongPanel(GameBoard gameBoard) {
     super();
-    // TODO nullcheck
     this.gameBoard = gameBoard;
   }
 
