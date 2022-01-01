@@ -8,8 +8,8 @@ public class ComputerRacket extends AbstractRacket {
     super(PongConstants.RACKET_PADDING + PongConstants.RACKET_DEPTH / 2);
   }
 
-  public void onTick(int ballY, int ballYVelocity) {
-    if(ballYVelocity < 0){
+  public void onTick(int ballY, int ballXVelocity) {
+    if(ballXVelocity < 0){
       this.y = heightToStayOnScreen(ballY);
     }
   }
