@@ -3,6 +3,8 @@
 A simple implementation of Pong using the MVC design pattern. In this version, the computer paddle has no speed limit,
 so it never looses.
 
+![Demo](https://github.com/Plabick/Unbeatable-Pong/blob/master/other/demo.gif)
+
 ## Usage
 To start the game, run the main method in the `Launcher` class.
 ### Keys
